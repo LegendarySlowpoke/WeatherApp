@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/backgroundColor"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:fontFamily="monospace"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/userField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="50sp"
+        android:background="@color/backgroundField"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="monospace"
+        android:textColor="@color/textColor"
+        android:hint="@string/hintUserField"
+        android:textColorHint="@color/textColorHint"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/searchButtonMain"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userField"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="90sp"
+
+        android:backgroundTint="@color/textColorHint"
+        android:text="@string/searchButtonLabel"
+
+
+        android:fontFamily="monospace"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/resultInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/searchButtonMain"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="@color/textColorResult"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

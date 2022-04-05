@@ -1,0 +1,11 @@
+<resources>
+    <!--Static Strings -->
+    <string name="app_name">WeatherApp</string>
+    <string name="logo">  Weather in your city  </string>
+    <string name="hintUserField">Enter city here -_-</string>
+    <string name="searchButtonLabel">Search</string>
+    <string name="inputErrorZeroLength">Please, input city name!</string>
+
+    <!--Dynamic Strings -->
+    <!-- <string name="whileRequesting">Loading info...</string>-->
+</resources>
